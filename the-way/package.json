@@ -1,0 +1,25 @@
+{
+  "name": "the-way",
+  "description": "An immersive Christian multimedia knowledge, fellowship and study platform",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "author": "The Way Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "tauri": "tauri",
+    "test": "node --experimental-vm-modules tests/unit/run.js",
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
